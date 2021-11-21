@@ -1,0 +1,142 @@
+Denver,CO,80012,35
+Colorado Springs,CO,80902,3
+Aurora,CO,80010,10
+Fort Collins,CO,80521,2
+Lakewood,CO,80123,10
+Pueblo,CO,81001,0.33
+Boulder,CO,80301,9
+Durango,CO,81301,4
+Eagle,CO,81631,4
+Dillon,CO,80435,15
+Crested Butte,CO,81224,4
+Telluride,CO,81435,4
+Albuquerque,NM,87101,0.27
+Rio Rancho,NM,87124,0.56
+Santa Fe,NM,87501,2
+Roswell,NM,88201,0.22
+Farmington,NM,87401,0.12
+Deming,NM,88030,0.15
+North Valley,NM,88043,1.5
+Gallup,NM,87301,1.2
+Taos,NM,87525,10
+Salt Lake City,UT,84101,25
+Park City,UT,84060,15
+West Jordan,UT,84081,1.1
+Provo,UT,84601,1.1
+Sandy,UT,84070,12
+Brigham City,UT,84302,10
+Cedar City,UT,84720,4
+Bountiful,UT,84010,4
+Ogden,UT,84201,8
+Logan,UT,84321,0.67
+Murray,UT,84107,0.77
+Layton,UT,84040,0.55
+Cheyenne,WY,82001,0.45
+Laramie,WY,82051,0.89
+Jackson,WY,83001,4
+Douglas,WY,82633,0.34
+Buffalo,WY,82834,1.12
+Powell,WY,82435,0.76
+Sheridan,WY,82801,1.12
+Worland,WY,82401,0.59
+Sacramento,CA,94203,25
+Yuba City,CA,95991,10
+South Lake Tahoe,CA,96150,11
+Los Angeles,CA,90001,4
+Stockton,CA,95201,15
+San Jose,CA,95002,1.4
+Oakland,CA,94601,1.1
+Fremont,CA,94536,0.9
+Santa Cruz,CA,95060,1.12
+San Francisco,CA,94102,1.76
+Norwalk,CA,90650,1.12
+Chico,CA,95926,0.76
+Truckee,CA,96160,3
+Boise,ID,83701,1.12
+Meridian,ID,83634,1.22
+Nampa,ID,83646,0.64
+Idaho Falls,ID,83401,0.12
+Twin Falls,ID,83301,0.44
+Post Falls,ID,83854,0.76
+Rigby,ID,83442,0.91
+Bellevue,ID,83313,0.56
+Iona,ID,83427,1.12
+Parma,ID,83660,1.1
+Bozeman,MT,59715,9
+Big Sky,MT,59716,3
+Whitefish,MT,59937,3
+Butte,MT,59701,0.77
+Evergreen,MT,59901,0.14
+Sidney,MT,59270,0.14
+Laurel,MT,59044,1.44
+Anaconda,MT,59711,1.67
+Polson,MT,59860,0.67
+Seattle,WA,98101,0.45
+Bellingham,WA,98225,6
+Pullman,WA,99163,0.88
+Camas,WA,98607,1.13
+Des Moines,WA,98148,1.4
+Mount Vernon,WA,98273,0.75
+Orchards,WA,98662,0.34
+Walla Walla,WA,99362,0.12
+Kenmore,WA,98028,0.44
+Portland,OR,97086,2.3
+Eugene,OR,97401,3.3
+Bend,OR,97701,4
+Medford,OR,97501,1.4
+Springfield,OR,97475,1.6
+Redmond,OR,97756,0.44
+Tualatin,OR,97062,0.12
+Roseburg,OR,97470,0.87
+Portland,ME,04101,0.76
+Biddeford,ME,04005,1.14
+Sanford,ME,04073,1.87
+Saco,ME,04072,1.76
+York,ME,03909,1.55
+Falmouth,ME,04105,1.45
+Kennebunk,ME,04043,0.25
+Brunswick,ME,04011,0.45
+Wells,ME,04090,0.55
+Lewiston,ME,04240,9
+Bangor,ME,04401,10
+Burlington,VT,05401,5
+Killington,VT,05751,3
+Colchester,VT,05439,0.76
+Springfield,VT,05156,0.95
+Barre,VT,05641,0.95
+Shelburne,VT,05482,0.55
+Milton,VT,05468,0.45
+Williston,VT,05495,0.3
+Barre City,VT,05641,1.1
+Essex,VT,05451,1.3
+Waitsfield,VT,05660,3
+New York,NY,10001,4
+Buffalo,NY,14201,0.67
+Rochester,NY,14602,1.2
+Albany,NY,12201,0.5
+Troy,NY,12180,1.5
+Syracuse,NY,13201,1.1
+Utica,NY,13501,0.44
+Freeport,NY,11520,0.76
+Petoskey,MI,49770,2
+Harbor Springs,MI,49737,0.55
+Traverse City,MI,49684,1.89
+Cadillac,MI,49601,0.33
+Milwaukee,WI,53201,5
+Green Bay,WI,54229,1.23
+Madison,WI,53558,5
+Weston,WV,26452,5
+Bellefontaine,OH,43311,1.15
+Dublin,OH,43016,0.5
+Altoona,PA,16601,1.1
+Somerset,PA,15501,2
+Harrisburg,PA,17101,2
+Pittsfield,MA,01201,4
+Boston,MA,02111,10
+Carson City,NV,89403,15
+Reno,NV,89433,8
+Chicago,IL,60007,3
+Asheville,NC,28715,5
+Phoenix,AZ,85001,8
+Flagstaff,AZ,86001,5
+Sedona,AZ,86336,6
