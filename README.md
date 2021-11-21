@@ -8,10 +8,19 @@ It even distributes the probability of a ski being rented based on when it was p
 
 ### Here are some visualizations of the data:
 
-[<img src="plots/hist_days_kept.png" height="240"/>]()
-[<img src="plots/order_date_month.png" height="240"/>]()
-[<img src="plots/order_date_year.png" height="240"/>]()
-[<img src="plots/customer_boot_size.png" height="240"/>]()
-[<img src="plots/customer_height.png" height="240"/>]()
-[<img src="plots/customer_weight.png" height="240"/>]()
-[<img src="plots/customer_ability_female.png" height="240"/>]()
+[<img src="plots/hist_days_kept.png" height="450"/>]()
+[<img src="plots/order_date_month.png" height="450"/>]()
+[<img src="plots/order_date_year.png" height="450"/>]()
+[<img src="plots/customer_boot_size.png" height="450"/>]()
+[<img src="plots/customer_height.png" height="450"/>]()
+[<img src="plots/customer_weight.png" height="450"/>]()
+[<img src="plots/customer_ability_female.png" height="450"/>]()
+
+### Notes for running scripts:
+```main_driver.py``` is the file to configure and run.
+
+New data is loaded into CSV files stored in ```/karvedata```.
+
+If you configured main to load data for customers, skis, AND rentals, it will document the output as a new "build" and update ```build_info.txt``` with the latest version number and descriptive info. It will also automatically update the plots in ```/plots```.
+
+Time complexity is linear for loading Customers and Ski/Binding/MountedSki. HOWEVER, time complexity to compute new Rental events depends on the ratio of mounted skis to rental events. Remember, the algorithm needs to place each rental event at a time that doesn't conflict with the customer or ski's previous rentals. So, for example, if you tell it to generate 30,000 rental events over 5 years with only 200 mounted skis available for rental, where skis are kept for around 30 days at a time on average, the program will obviously NOT work. But if you tell it to generate 1000 rental events, given 1000 mounted ski pairs to work with, it will run linearly without a problem.
