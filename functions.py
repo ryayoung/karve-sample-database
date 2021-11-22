@@ -392,7 +392,7 @@ def gen_damage(rental_id, df_damage):
             first_damage = np.random.choice([1, 2, 3], p=(.50, .30, .20))
             damage_table = damage_table.append(damage(rental_id, first_damage), ignore_index=True)
             # Decide if there will be additional damages to the ski
-            more_damage = np.random.choice([True,False], p=(.15, .85))
+            more_damage = np.random.choice([True,False], p=(.30, .70))
             if more_damage:
                 possible_damages = [1, 2, 3]
                 # Possibilities for additional damage CANNOT include the first damage. (NO DUPLICATES)
@@ -566,8 +566,8 @@ def gen_rental(df_rental, df_customer, df_damage, df_ski, df_binding, df_mounted
         the year according to a distribution that matches this scenario.
         """
         year = np.random.choice(
-                [year_mounted_ski, year_mounted_ski+1, year_mounted_ski+2],
-                p=(.70,.25,.05))
+                [year_mounted_ski, year_mounted_ski+1, year_mounted_ski+2, year_mounted_ski+3],
+                p=(.30,.45,.15,.10))
         # Year must not exceed max year
         if year > max_year:
             continue

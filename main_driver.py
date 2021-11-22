@@ -1,5 +1,5 @@
 # Maintainer:     Ryan Young
-# Last Modified:  Nov 19, 2021
+# Last Modified:  Nov 21, 2021
 
 import matplotlib.pyplot as plt
 import load_data
@@ -28,13 +28,13 @@ num_customers       = 2500
 num_mounted_skis    = 3000
 num_rentals         = 12000
 # ACTIONS
-generate_customers  = False
-generate_skis       = False
-generate_rentals    = False
+generate_customers  = True
+generate_skis       = True
+generate_rentals    = True
 other_enabled       = False
 # PLOTS
-plot_customer       = False
-plot_rental         = False
+plot_customer       = True
+plot_rental         = True
 
 # Document a new build if we are loading all three tables
 if generate_customers and generate_skis and generate_rentals:
