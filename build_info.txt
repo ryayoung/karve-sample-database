@@ -1,10 +1,10 @@
-build_info 6.0
-exe_time(s) 1079.381
+build_info 7.0
+exe_time(s) 1082.547
 customers 2500.0
 mounted_skis 3000.0
 rentals 12000.0
-skis_retired 0.0
-percent_retired 0.0
-skis_totaled 123.0
-percent_totaled 0.041
-percent_deactivated 0.041
+skis_retired 23.0
+percent_retired 0.007666666666666666
+skis_totaled 148.0
+percent_totaled 0.04933333333333333
+percent_deactivated 0.057
