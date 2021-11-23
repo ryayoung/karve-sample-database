@@ -383,7 +383,7 @@ def gen_damage(rental_id, df_damage):
             # Ski is totaled, so we only record ONE damage entry. (why charge $5 for delamination if the ski is broken)
             # Pick from the 3 types of critical damage:
             # TYPES: 10: core unrepairable, 20: edge break, 30: full ski break
-            damage_type = np.random.choice([10,20,30], p=(.5,.3,.2))
+            damage_type = np.random.choice([10,20,30], p=(.60,.30,.10))
             damage_table = damage_table.append(damage(rental_id, damage_type), ignore_index=True)
         else:
             # Ski isn't totaled, so we might record multiple types of damage.
